@@ -1,0 +1,109 @@
+@import "materialize";
+
+.btn{
+  text-align: center;
+}
+
+card{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  width: 50%;
+  float: none;
+}
+
+.form-login {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+nav {
+    height: 51px;
+    line-height: 51px;
+    background-color: rgba(50, 189, 158, 1);
+    position: fixed;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem;
+    margin-left: 22px; 
+}
+
+.side-nav{
+  width:240px;
+  margin-top:51px;
+  background-color:#282F37;
+}
+
+.btn{
+  background-color:#69BC6C; 
+}
+
+.li-back{
+  background-color: #1C2226;
+}
+
+h1,h2,h3,h4,h5,h6,table,th,tr,tbody,thead{
+  line-height: 1;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.page-header h1 {
+  background: #37BC9B;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+h2{
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+p{
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+.container {
+  text-align: left;
+  margin-left: 255px;
+  margin-right: 15px;
+  width: auto;
+}
+
+body{
+  background-color: #EAEBF5;
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+  }
+}
+
+.container-login {
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.chart-size{
+  width: 15cm;
+  height: 15cm;
+}
